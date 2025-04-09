@@ -1,7 +1,3 @@
-import { db, storage } from './firebaseConfig.js';
-import { collection, addDoc } from "firebase/firestore";
-import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
-
 var nameProduct, maProduct, sanPhamHienTai; // Tên sản phẩm trong trang này, 
 // là biến toàn cục để có thể dùng ở bát cứ đâu trong trang
 // không cần tính toán lấy tên từ url nhiều lần

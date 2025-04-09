@@ -1,7 +1,3 @@
-import { db, storage } from './firebaseConfig.js';
-import { collection, addDoc } from "firebase/firestore";
-import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
-
 function User(username, pass, ho, ten, email, products, donhang) {
 	this.ho = ho || '';
 	this.ten = ten || '';

@@ -1,7 +1,3 @@
-import { db, storage } from './firebaseConfig.js';
-import { collection, addDoc } from "firebase/firestore";
-import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
-
 var currentUser;
 var tongTienTatCaDonHang = 0; // lưu tổng tiền từ tất cả các đơn hàng đã mua
 var tongSanPhamTatCaDonHang = 0;
