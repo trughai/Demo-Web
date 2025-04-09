@@ -1,3 +1,7 @@
+import { db, storage } from './firebaseConfig.js';
+import { collection, addDoc } from "firebase/firestore";
+import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
+
 window.onload = function () {
 	khoiTao();
 

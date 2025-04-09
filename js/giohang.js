@@ -1,3 +1,7 @@
+import { db, storage } from './firebaseConfig.js';
+import { collection, addDoc } from "firebase/firestore";
+import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
+
 var currentuser; // user hiện tại, biến toàn cục
 window.onload = function () {
     khoiTao();
